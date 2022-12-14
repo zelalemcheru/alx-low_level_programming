@@ -1,16 +1,15 @@
-#include <main.h>
+#include "main.h"
 
 /**
+ * main - Entry point
  *
- * main - starts main function
- *
- * return always 0 success
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 
 {
- 
+
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -24,4 +23,3 @@ int main(void)
 	return (0);
 
 }
-
