@@ -6,7 +6,8 @@
  * @b: second integer
  * return: value of two integer
  */
-int mul(int a, int b);
+
+int mul(int a, int b)
 {
 	return (a * b);
 }
