@@ -2,21 +2,19 @@
 #include "main.h"
 
 /**
- * _strcpy - function copies string pointed to src and dest
- * @dest: Pointer parameter
- * @src: poiter parameter
- * Return: char
+ * print_array - Function prints element of array of integers
+ * @a: Pointer parameter
+ * @n: integer variable
  */
-
-char *_strcpy(char *dest, char *src)
+void print_array(int *a, int n)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; *(src + i) != '\0'; i++)
+	for (; i < n; i++)
 	{
-		dest[i] = *(src + i);
+		printf("%d", *(a + i));
+		if (i != (n - 1))
+			printf(", ");
 	}
-	dest[i] = '\0';
-
-	return (dest);
+	printf("\n");
 }
