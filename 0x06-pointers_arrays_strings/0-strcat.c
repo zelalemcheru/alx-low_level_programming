@@ -26,5 +26,3 @@ char *_strcat(char *dest, char *src)
 	dest[length] = '\0';
 	return (dest);
 }
-Footer
-© 2022 GitHub, Inc.
